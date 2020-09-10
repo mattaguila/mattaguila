@@ -1,0 +1,12 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery> 
+  <album title="Recent Work" description="Random Creative Pieces"
+  		 lgPath="gallery/monthlyalbum/large/" tnPath="gallery/monthlyalbum/thumbs/" 
+		 tn="gallery/monthlyalbum/albumthumb.jpg">
+    <img src="03.png" title="Open Wall" caption="Creative Composite Piece" />
+	<img src="01.png" title="Photoshop Battle ($piece 2/07)" caption="One Hour Limit" />
+	<img src="02.png" title="6 Feet Under" caption="Creative Piece" />
+	
+ </album>
+</gallery>

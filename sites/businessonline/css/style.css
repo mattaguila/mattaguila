@@ -1,0 +1,361 @@
+@charset "UTF-8";
+
+body {
+	background-color: #fdfce8;
+
+}
+#wrapper {
+	width: 886px;
+	height: 1000px;
+}
+#header {
+	float: left;
+	height: 254px;
+	width: 886px;
+}
+#concentrations {
+	width: 860px;
+	height: 80px;
+	padding-top: 4px;
+	padding-left: 10px;
+	margin-left: 16px;
+	background-color: #312e24;
+	float: left;
+}
+#concentrations ul {
+	margin: 0px;
+	padding: 0px;
+}
+#concentrations ul li {
+	float: left;
+	overflow: hidden;
+	margin-top: 0px;
+	width: 170px;
+}
+#concentrations ul li li {
+	float: none;
+	border: none;
+	padding-left: 5px;
+	margin-top: 0;
+}
+#concentrations ul li a {
+	background: transparent url(../images/bullet.gif) left center no-repeat;
+	padding-left: 10px;
+	margin-left: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: none;
+}
+#concentrations ul li a:hover {
+	background: transparent url(../images/bulletactive.gif) left center no-repeat;
+	color: #99c53c;
+	text-decoration: none;
+}
+#concentrations ul li a#current {
+	background: transparent url(../images/bulletactive.gif) left center no-repeat;
+	color: #ffffff;
+}
+#maincontent {
+	float: left;
+	width: 870px;
+	height: 800px;
+	background-color: #A69C78;
+	margin-left: 16px;
+}
+#leftofqdf {
+	float: left;
+	width: 10px;
+	height: 746px;
+	background-image: url(../images/leftofqdf.gif);
+	background-repeat: repeat-x;
+	background-color: #a69c78;
+}
+#leftcolumn {
+	float: left;
+	height: 746px;
+	width: 285px;
+	background-image: url(../images/qdfbackground.gif);
+	background-color: #a69c78;
+	background-repeat: repeat-x;
+	background-color: #a69c78;
+}
+#qdfheader {
+	float: left;
+	width: 265px;
+	height: 54px;
+	padding: 10px;
+}
+#qdf {
+	float: left;
+	height: 250px;
+	width: 258px;
+	padding-left: 27px;
+}
+#middlecolumn {
+	float: left;
+	height: 746px;
+	width: 305px;
+	background-color: #a69c78;
+}
+#middleheader {
+	float: left;
+	width: 285px;
+	height: 30px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 14px;
+	padding-left: 10px;
+}
+#middlesubheader {
+	float: left;
+	width: 275px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #ffffff;
+	padding-top: 5px;
+	padding-right: 14px;
+	padding-bottom: 10px;
+	padding-left: 14px;
+}
+#middlecontent {
+	width: 265px;
+	background-color: #797154;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+	font-family: Verdana, Verdana, Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	padding: 10px;
+	color: #ffffff;
+}
+#rightcolumn {
+	height: 746px;
+	width: 270px;
+	float: right;
+	background-color: #a69c78;
+}
+#rightheader {
+	width: 250px;
+	float: left;
+	height: 20px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	line-height: 20px;
+	color: #fdfce8;
+}
+#rightsubheader {
+	float: left;
+	width: 240px;
+	height: 30px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #ffffff;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+#schools {
+	float: left;
+	width: 260px;
+	height: 500px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 5px;
+	text-align: center;
+}
+#footer {
+	background-color: #99c53c;
+	float: left;
+	height: 35px;
+	width: 860px;
+	background-image: url(../images/footercorner.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 16px;
+	color: #333333;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-left: 16px;
+}
+h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	line-height: 26px;
+	color: #fdfce8;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	line-height: 20px;
+	color: #fdfce8;
+	margin: 0px;
+	padding: 0px;
+	font-weight:normal;
+}
+.boldtxt {
+	font-size: 18px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+.uop a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/uopoff.gif) no-repeat 0 0;
+}
+.uop a:hover {
+	background-image: url(../images/uopon.gif);
+	background-repeat: no-repeat;
+}
+.uop  span {
+  display: none;
+}
+.kap a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/kapoff.gif) no-repeat 0 0;
+}
+.kap a:hover {
+	background-image: url(../images/kapon.gif);
+	background-repeat: no-repeat;
+}
+.kap  span {
+  display: none;
+}
+.aiu a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/aiuoff.gif) no-repeat 0 0;
+}
+.aiu a:hover {
+	background-image: url(../images/aiuon.gif);
+	background-repeat: no-repeat;
+}
+.aiu  span {
+  display: none;
+}
+.west a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/westoff.gif) no-repeat 0 0;
+}
+.west a:hover {
+	background-image: url(../images/weston.gif);
+	background-repeat: no-repeat;
+}
+.west  span {
+  display: none;
+}
+.stleo a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/stleooff.gif) no-repeat 0 0;
+}
+.stleo a:hover {
+	background-image: url(../images/stleoon.gif);
+	background-repeat: no-repeat;
+}
+.stleo  span {
+  display: none;
+}
+.everest a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/everestoff.gif) no-repeat 0 0;
+}
+.everest a:hover {
+	background-image: url(../images/evereston.gif);
+	background-repeat: no-repeat;
+}
+.everest  span {
+  display: none;
+}
+.colorado a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/coloradooff.gif) no-repeat 0 0;
+}
+.colorado a:hover {
+	background-image: url(../images/coloradoon.gif);
+	background-repeat: no-repeat;
+}
+.colorado  span {
+  display: none;
+}
+.capella a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/capellaoff.gif) no-repeat 0 0;
+}
+.capella a:hover {
+	background-image: url(../images/capellaon.gif);
+	background-repeat: no-repeat;
+}
+.capella  span {
+  display: none;
+}
+.villa a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/villaoff.gif) no-repeat 0 0;
+}
+.villa a:hover {
+	background-image: url(../images/villaon.gif);
+	background-repeat: no-repeat;
+}
+.villa  span {
+  display: none;
+}
+.walden a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/waldenoff.gif) no-repeat 0 0;
+}
+.walden a:hover {
+	background-image: url(../images/waldenon.gif);
+	background-repeat: no-repeat;
+}
+.walden  span {
+  display: none;
+}
+.devry a:link {
+	display: block;
+	width: 120px;
+	height: 74px;
+	background: url(../images/devryoff.gif) no-repeat 0 0;
+}
+.devry a:hover {
+	background-image: url(../images/devryon.gif);
+	background-repeat: no-repeat;
+}
+.devry  span {
+  display: none;
+}
+.footerlinks a:link {
+	color: #333333;
+}

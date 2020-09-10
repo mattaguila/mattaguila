@@ -1,0 +1,4 @@
+
+namespacing={init:function(namespace){var spaces=[];namespace.split('.').each(function(space){var curSpace=window,i;spaces.push(space);for(i=0;i<spaces.length;i++){if(typeof curSpace[spaces[i]]==='undefined'){curSpace[spaces[i]]={};}
+curSpace=curSpace[spaces[i]];}});}};(function($){$(document).ready(function(){var imageElement=$("#ZoomImage"),compElement=$("#download-comp");var trackImageSave=function(type){document.fire("omniture:trackImageSave",{type:type});imageElement.unbind("mousedown");compElement.unbind("click");};var waitForDrag=function(){$(document).bind("mousemove",function(){trackImageSave("left");$(document).unbind("mousemove");});};imageElement.bind("mousedown",function(event){switch(event.which){case 1:{waitForDrag();break;}
+case 3:{trackImageSave("right");break;}}});imageElement.bind("mouseup",function(){$(document).unbind("mousemove");});$("#download-comp").bind("click",function(e){trackImageSave("comp");});});}(jQuery));

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body {
+	background-image:url(images/bkgrnd.gif);
+	background-repeat:repeat;
+	margin:0px 0px; padding:0px;
+	text-align:center;
+}
+#container {
+	margin:0px auto;
+}

@@ -1,0 +1,17 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery> 
+  <album title="Web Design" description=""
+  		 lgPath="gallery/webalbum/large/" tnPath="gallery/webalbum/thumbs/" 
+		 tn="gallery/webalbum/albumthumb.jpg">
+    <img src="01.png" title="Baraka Naga Art Co. (www.barakanagaartco.com)" caption="Portfolio Website Design" />
+    <img src="02.png" title="Baraka Naga Art Co. (www.barakanagaartco.com)" caption="Portfolio Website Design" />
+	<img src="03.png" title="Baraka Naga Art Co. (www.barakanagaartco.com)" caption="Portfolio Website Design" />
+	<img src="04.png" title="Baraka Naga Art Co. (www.barakanagaartco.com)" caption="Portfolio Website Design" />
+	<img src="05.png" title="GhostGrafik (www.ghostgrafik.com)" caption="Portfolio Website Design" />
+	<img src="06.png" title="GhostGrafik (www.ghostgrafik.com)" caption="Portfolio Website Design" />
+	<img src="07.png" title="GhostGrafik (www.ghostgrafik.com)" caption="Portfolio Website Design" />
+	<img src="08.png" title="GhostGrafik (www.ghostgrafik.com)" caption="Portfolio Website Design" />
+	<img src="09.png" title="GhostGrafik (www.ghostgrafik.com)" caption="Portfolio Website Design" />
+ </album>
+</gallery>

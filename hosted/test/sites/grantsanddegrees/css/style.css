@@ -1,0 +1,347 @@
+@charset "UTF-8";
+
+/*Start Reset CSS
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End Reset CSS
+*/
+
+@font-face {
+	font-family: 'AvenirLT35LightRegular';
+	src: url('../fonts/AvenirLT35Light.eot') format('embedded-opentype');
+	src: url('../fonts/AvenirLT35Light.ttf') format('truetype');
+}
+
+body  {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	background-image: url(../images/body-bgrd.png);
+	background-repeat: repeat-x;
+	background-color:#1381b8;
+	background-position: left top;
+}
+.tablehd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFFFFF;
+	font-weight:normal;
+	padding:10px 0px 10px 0px;
+}
+table select {
+	padding:0px;
+	margin:0px 0px 4px 0px;
+	width:95%;
+	height:28px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+table input {
+	padding:0px;
+	margin:0px 0px 4px 0px;
+	width:300px;
+	height:24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+#formbutton {
+	margin:20px 0px 0px 0px;
+}
+h1.swap {
+	height:56px;
+	margin:10px 0px 0px 20px;
+	background-repeat:no-repeat;
+	background-image:url(../images/gdLogo.gif);
+}
+h1.swap span {
+	display:none;
+}
+h2 {
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	margin:20px 0px 0px 20px;
+}
+h3 {
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#d92828;
+}
+h4 {
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	color:#333333;
+	font-style:italic;
+	line-height:18px;
+}
+h5 {
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:42px;
+	font-weight:bold;
+	color:#ffffff;
+}
+h6 {
+	color:#004579;
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+#wrapper {
+	height:auto;
+	width:1090px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left;
+}
+#top {
+	padding:0px;
+	margin:0px;
+	float:left;
+	display:none;
+}
+#shadow {
+	padding:0px;
+	margin:0px;
+	height:auto;
+}
+#contentwrap {
+	float:left;
+	height:auto;
+	width:1100px;
+	background-image:url(../images/wrapper_bg.png);
+	background-repeat:repeat-y;
+	padding:0px 40px 0px 20px;
+}
+#header {
+	background-color:#FFFFFF;
+	height: 66px;
+	width: 830px;
+	float: left;
+}
+#funnel {
+	float:left;
+	width:1060px;
+	height:790px;
+	background-image:url(../images/photo.gif);
+	background-repeat:no-repeat;
+}
+#funnelphoto {
+	float:left;
+	width:610px;
+	height:377px;
+}
+#subhead {
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	margin:10px 0px 0px 20px;
+}
+#marketingMessage {
+	float:left;
+	width:610px;
+	height:311px;
+	padding:0px;
+	height: auto;
+	display:inline;
+}
+#marketingMessage li {
+	margin:20px 0px 20px 30px;
+}
+#marketingMessage li.icon01 {
+	background-image: url(../images/icon01.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 70px;
+	height:76px;
+}
+#marketingMessage li.icon02 {
+	background-image: url(../images/icon02.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 70px;
+	height:76px;
+}
+#marketingMessage li.icon03 {
+	background-image: url(../images/icon03.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 70px;
+	height:76px;
+}
+#rightqdf {
+	float:right;
+	width:325px;
+	height:690px;
+	background-image:url(../images/qdf_bg.png);
+	background-repeat:no-repeat;
+	padding:50px 50px 50px 65px;
+}
+#pageContent {
+	width:920px;
+	height:auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	padding:20px;
+	background-color:#f9f9f9;
+	margin:0px 0px 0px 20px;
+}
+#pageContent p {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333333;
+	font-size:12px;
+	padding:20px 0px 0px 0px;
+}
+#footer {
+	float:left;
+	width:920px;
+	height:auto;
+	padding:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333333;
+	background-color:#f9f9f9;
+	margin:20px 0px 20px 20px;
+}
+/*
+
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	text-align:left;
+	vertical-align:middle;
+	margin:0px;
+	padding:0px;
+	font-style:italic;
+	text-shadow:#000000;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #ffffff;
+	text-align:center;
+	vertical-align:middle;
+	margin:0px;
+	padding:1px;
+	text-shadow:#000000;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	text-align:center;
+	vertical-align:middle;
+	margin:0px;
+	padding:8px 10px 5px 44px;
+	text-shadow:#000000;
+}
+a:link {
+	color: #49518c;
+	text-decoration: none;
+}
+a:hover {
+	color: #6972b4;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #6972b4;
+}
+.question {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.tablehd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+#formbutton {
+	width: 387px;
+	height: 49px;
+	margin: 0px;
+	background-repeat: no-repeat;
+	padding: 0px;
+	background-image: url(images/button.gif);
+}
+#degreehdr {
+	height: 60px;
+	width: 364px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-top: 8px;
+	padding-bottom: 0px;
+	padding-left:26px;
+}
+#degreefndr {
+	width: 388px;
+	height: 270px;
+	margin-top: 0px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+
+
+
+*/

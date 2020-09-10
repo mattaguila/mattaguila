@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+/* formatting css */
+
+body {
+	background-image:url(../images/pattern.gif);
+	background-repeat:repeat;
+	text-align:center;
+	margin:0;
+}
+h2 {
+	font-family:"Trebuchet MS", Tahoma;
+	font-weight:500;
+	font-size: 24px;
+	color: #edc300;
+}
+h3 {
+	font-family:"Trebuchet MS", Tahoma;
+	font-weight:500;
+	font-size: 20px;
+	color: #edc300;
+	margin: 0px;
+	padding-top:15px;
+}
+h4 {
+	font-family:"Trebuchet MS", Tahoma;
+	font-weight:500;
+	font-size: 16px;
+	color: #ed6e00;
+	margin: 0px;
+	padding: 0px;
+}
+h5 {
+	font-family:"Trebuchet MS", Tahoma;
+	font-weight:500;
+	font-size: 16px;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+}
+p {
+	font-family:"Trebuchet MS", Tahoma;
+	font-size:12px;
+	color:#FFFFFF;
+}
+table {
+	font-family:"Trebuchet MS", Tahoma;
+	font-size:18px;
+}
+a {
+	color:#FFFFFF;
+}
+.style1 {
+	color: #edc300;
+}
+
+/* slider css */
+
+#slider {
+  width: 866px;
+  margin: 0 auto;
+  position: relative;
+  text-align:left;
+}
+#slidernav {
+	width:846px;
+	height:100px;
+	float:left;
+	padding-top:0px;
+	padding-left:20px;
+}
+#listdescript{
+	float:left;
+	width:125px;
+	padding-top:0px;
+}
+#listicons {
+	float:left;
+	width:721px;
+}
+.sliderhead {
+	margin-bottom:16px;
+}
+
+#navlist li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+.scroll {
+	height: 252px;
+	overflow: auto;
+	overflow-x: hidden;
+	position: relative; /* fix for IE to respect overflow */
+	clear: left;
+	
+ }
+
+.scrollContainer div.panel {
+	height: 280px;
+  	width: 850px;
+	padding-left: 20px;
+}
+
+.scrollButtons {
+  	position: absolute;
+  	top: 150px;
+  	cursor: pointer;
+}
+
+.scrollButtons.left {
+  	left: -50px;
+}
+
+.scrollButtons.right {
+	right: -50px;
+}
+
+/* div css */
+
+#wrapper {
+	background-image:url(../images/maincontentbg.png);
+	background-repeat:no-repeat;
+	width: 1059px;
+	height: 1260px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+#carousel {
+	width: 1059px;
+	height: 347px;
+	float: left;
+	margin-top: 282px;
+	padding-top:18px;
+	text-align: center;
+}
+#middlerow {
+	float: left;
+	height: 250px;
+	width: 1059px;
+	text-align: center;
+}
+#qdf {
+	height: 250px;
+	width: 320px;
+	float: left;
+	text-align: left;
+	padding-left: 20px;
+	margin-left: 95px;
+	font-family:"Trebuchet MS", Tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+#synopsis {
+	height: 250px;
+	width: 510px;
+	float: left;
+	font-family:"Trebuchet MS", Tahoma;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 20px;
+	line-height: 24px;
+}
+#bottomrow {
+	float: left;
+	width: 1059px;
+	text-align: center;
+	height: 263px;
+	background-image: url(../images/bottomlistbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+#degrees {
+	width: 320px;
+	height: 263px;
+	float: left;
+	text-align: left;
+	padding-left: 20px;
+	margin-left: 95px;
+	font-family:"Trebuchet MS", Tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+#degreedescript {
+	width: 490px;
+	height: 237px;
+	float: left;
+	text-align: left;
+	padding-left: 20px;
+	padding-right:20px;
+	line-height: 14px;
+	padding-top: 22px;
+	font-family:"Trebuchet MS", Tahoma;
+	font-size:12px;
+}
+#footer {
+	float: left;
+	height: 55px;
+	width: 1059px;
+	margin-top: 20px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+#leftcorner {
+	background-image: url(../images/footercornerleft.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+	height: 58px;
+	width: 18px;
+	margin-left: 95px;
+	background-color: #ed6e00;
+}
+#footercontent {
+	width: 830px;
+	background-color: #ed6e00;
+	float: left;
+	height: 42px;
+	font-family:"Trebuchet MS", Tahoma;
+	font-size: 10px;
+	color: #FFFFFF;
+	padding-top: 15px;
+	margin-top: 1px;
+	margin-bottom:0px;
+}
+#rightcorner {
+	background-image: url(../images/footercornerright.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+	height: 58px;
+	width: 18px;
+	background-color: #ed6e00;
+}

@@ -1,0 +1,558 @@
+@charset "UTF-8";
+
+/*Start Reset CSS
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	background-image:url(../images/rowcenter_bg.gif);
+	background-repeat:repeat-y;
+	background-repeat:no-repeat-x;
+	background-position:center;
+	background-color:#014e82;
+	text-align:center;
+}
+body.congratspage  {
+	line-height: 1;
+	background-image:none;
+	background-color:#014e82;
+	text-align:center;
+}
+ol, ul {
+	float:left;
+	margin:0px 0px 0px 40px;
+	color:#98ca00;
+	font-family:AllerBold, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:17px;
+	font-weight:normal;
+	font-style:normal;
+	padding:15px 0px 15px 0px;
+	line-height:26px;
+}
+blockquote, q {
+	quotes: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End Reset CSS
+*/
+
+@font-face {
+	font-family: 'AllerItalic';
+	src: url('fonts/aller_it-webfont.eot');
+	src: local('☺'), url('fonts/aller_it-webfont.woff') format('woff'), url('fonts/aller_it-webfont.ttf') format('truetype'), url('fonts/aller_it-webfont.svg#webfontvL1tA4Zr') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AllerRegular';
+	src: url('fonts/aller_rg-webfont.eot');
+	src: local('☺'), url('fonts/aller_rg-webfont.woff') format('woff'), url('fonts/aller_rg-webfont.ttf') format('truetype'), url('fonts/aller_rg-webfont.svg#webfontYrLB9NVI') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AllerBoldItalic';
+	src: url('fonts/aller_bdit-webfont.eot');
+	src: local('☺'), url('fonts/aller_bdit-webfont.woff') format('woff'), url('fonts/aller_bdit-webfont.ttf') format('truetype'), url('fonts/aller_bdit-webfont.svg#webfontBV14jFIT') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AllerBold';
+	src: url('fonts/aller_bd-webfont.eot');
+	src: local('☺'), url('fonts/aller_bd-webfont.woff') format('woff'), url('fonts/aller_bd-webfont.ttf') format('truetype'), url('fonts/aller_bd-webfont.svg#webfontfvx4wJVy') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GaramondPremierProSemiboldIta';
+	src: url('fonts/garamondpremrpro-smbdit-webfont.eot');
+	src: local('☺'), url('fonts/garamondpremrpro-smbdit-webfont.woff') format('woff'), url('fonts/garamondpremrpro-smbdit-webfont.ttf') format('truetype'), url('fonts/garamondpremrpro-smbdit-webfont.svg#webfontbIc9ESTK') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GaramondPremierProItalic';
+	src: url('fonts/garamondpremrpro-it-webfont.eot');
+	src: local('☺'), url('fonts/garamondpremrpro-it-webfont.woff') format('woff'), url('fonts/garamondpremrpro-it-webfont.ttf') format('truetype'), url('fonts/garamondpremrpro-it-webfont.svg#webfontoGYTYdkp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GaramondPremierProSemibold';
+	src: url('fonts/garamondpremrpro-smbd-webfont.eot');
+	src: local('☺'), url('fonts/garamondpremrpro-smbd-webfont.woff') format('woff'), url('fonts/garamondpremrpro-smbd-webfont.ttf') format('truetype'), url('fonts/garamondpremrpro-smbd-webfont.svg#webfontYzfUOgtn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GaramondPremierProRegular';
+	src: url('fonts/garamondpremrpro-webfont.eot');
+	src: local('☺'), url('garamondpremrpro-webfont.woff') format('woff'), url('fonts/vgaramondpremrpro-webfont.ttf') format('truetype'), url('fonts/garamondpremrpro-webfont.svg#webfontdGfOLWya') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+p {
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+	font-style:normal;
+	padding:5px 0px 5px 0px;
+	line-height:26px;
+	float:left;
+	clear:both;
+}
+.title {
+	font-family:AllerBold, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+	font-style:normal;
+	padding:14px 0px 0px 10px;
+	line-height:26px;
+	float:left;
+}
+h1 {
+	font-family:GaramondPremierProRegular, Georgia, "Times New Roman", Times, serif;
+	font-size:29px;
+	color:#333;
+	font-weight:normal;
+	font-style:normal;
+	padding:5px 0px 5px 0px;
+	line-height:26px;
+}
+.headbolditalic {
+	font-family:GaramondPremierProSemiboldIta, Georgia, "Times New Roman", Times, serif;
+}
+.subhead {
+	font-family:GaramondPremierProRegular, Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	color:#333;
+	font-weight:normal;
+	font-style:normal;
+	padding:5px 0px 10px 0px;
+	line-height:26px;
+}
+.subheadbolditalic {
+	font-family:GaramondPremierProItalic, Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+	font-family:AllerBold, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:17px;
+	color:#fff;
+	font-weight:normal;
+	font-style:normal;
+	padding:5px 0px 5px 0px;
+	line-height:26px;
+	float:left;
+	clear:both;
+	width:100%;
+}
+.bolded {
+	font-weight:bold;
+	float:left;
+	text-align:left;
+	margin:0px;
+}
+.floatright {
+	font-weight:bold;
+	float:right;
+}
+.listpstyle {
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+	font-style:normal;
+	line-height:22px;
+}
+.pitalic {
+	font-family:AllerItalic, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.smaller {
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+}
+#buttonclear {
+	float:left;
+	width:90%;
+}
+.button {
+	float:left;
+	color:#fff;
+	background-color:#99cb00;
+	width:100px;
+	height:auto;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	font-style:normal;
+	border:none;
+	margin:30px 0px 40px 0px;
+	padding:10px 0px 10px 20px;
+}
+.buttoninvalid {
+	float:left;
+	color:#b8a3ae;
+	background-color:#71485e;
+	margin:25px 0px 25px 0px;
+	width:138px;
+	height:42px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	font-style:normal;
+	border:none;
+	margin:30px 0px 40px 0px;
+}
+.nothankyou {
+	float:left;
+	color:#333;
+	background-color:#c4ccd0;
+	margin:25px 0px 25px 0px;
+	width:240px;
+	height:42px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	font-style:normal;
+	border:none;
+	margin:30px 0px 40px 0px;
+}
+.nothankyou:hover {
+	background-color:#92999c;
+	cursor:pointer;
+	border:none;
+}
+.button:hover {
+	background-color:#8ab900;
+	cursor:pointer;
+	border:none;
+	text-decoration:none;
+}
+select {
+	width:280px;
+	border:thin;
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#333;
+	font-weight:normal;
+	font-style:normal;
+	line-height:22px;
+	display:inline;
+	margin:0px;
+	clear:both;
+}
+input {
+	width:270px;
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#333;
+	font-weight:normal;
+	font-style:normal;
+	line-height:22px;
+	display:inline;
+	margin:0px;
+	clear:both;
+}
+.inputpadding {
+	padding:0px 0px 0px 6px;
+}
+.inputinvalid {
+	padding:0px 0px 0px 6px;
+	border:solid 2px #fc2300;
+}
+.inputactive {
+	padding:0px 0px 0px 6px;
+	border:solid 2px #99cb00;
+}
+.validation {
+	color:#fff;
+	background-color:#fc2300;
+	padding:0px 10px 0px 10px;
+	margin:10px 0px 0px 0px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+.radiobutton {
+	width:auto;
+	height:auto;
+	margin:0px 8px 0px 8px;
+}
+#schoolmatch {
+	margin:10px 0px 10px 0px;
+	border-top:solid 1px #0184de;
+	height:auto;
+	float:left;
+	width:100%;
+}
+#skippedborder {
+	border:dashed 2px #fc2300;
+	float:left;
+	height:auto;
+	margin:10px 0px 10px 0px;
+	padding:5px 10px 10px 10px;
+}
+#completedborder {
+	border:dashed 2px #99cb00;
+	float:left;
+	height:auto;
+	margin:10px 0px 10px 0px;
+	padding:5px 10px 10px 10px;
+}
+#variableschool {
+	width:100%;
+	height:auto;
+	float:left;
+}
+.skipped {
+	font-family:AllerBold, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:22px;
+	color:#fff;
+	font-weight:normal;
+	font-style:normal;
+	padding:3px 0px 5px 5px;
+	line-height:26px;
+	float:left;
+}
+.completed {
+	color:#fff;
+	font-family:AllerBold, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:22px;
+	font-weight:normal;
+	font-style:normal;
+	padding:3px 0px 5px 5px;
+	line-height:26px;
+	float:left;
+}
+.popuphead {
+	font-family:AllerBold, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:17px;
+	color:#333;
+	font-weight:normal;
+	font-style:normal;
+	padding:5px 0px 5px 0px;
+	line-height:26px;
+	float:left;
+	clear:both;
+	width:100%;
+}
+.popupbody {
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#333;
+	font-weight:normal;
+	font-style:normal;
+	padding:5px 0px 5px 0px;
+	line-height:26px;
+	float:left;
+	clear:both;
+}
+.checkbox {
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+	font-style:normal;
+	padding:5px 0px 5px 0px;
+	line-height:26px;
+	float:left;
+	clear:both;
+	width:10px;
+}
+#inline_example1 {
+	text-align:left;
+}
+#columnone p img {
+	padding:6px 4px 0px 0px;
+}
+#radiobuttonclear {
+	width:100%;
+}
+#wrapper {
+	height:auto;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+#header {
+	background-image:url(../images/header_bg.gif);
+	background-repeat:no-repeat-y;
+	height:110px;
+	text-align:center;
+}
+#headeranchor {
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+#logo {
+	float:left;
+	width:300px;
+	height:34px;
+	padding:35px 10px 0px 10px;
+	text-align:left;
+}
+#steps {
+	float:left;
+	width:620px;
+	height:auto;
+	text-align:right;
+	padding:30px 10px 0px 10px;
+}
+#subheader {
+	width:100%;
+	height:auto;
+	background-color:#FFF;
+	padding:10px 0px 5px 0px;
+}
+#anchor {
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+#anchor a {
+	color:#FFF;
+	text-decoration:none;
+}
+#anchor a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+#anchor a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+#columnone {
+	float:left;
+	width:310px;
+	height:auto;
+	padding:40px 10px 0px 0px;
+	text-align:left;
+}
+#forminstructions {
+	float:left;
+	height:auto;
+	width:610px;
+	text-align:left;
+	padding:40px 10px 0px 10px;
+}
+#matchedschool {
+	float:left;
+	position:absolute;
+	margin:80px 0px 0px 320px;
+}
+#listedschool {
+	float:left;
+	width:310px;
+}
+#colwrapper {
+	float:left;	
+	min-height:auto;
+	min-height:560px;
+	width:640px;
+	border-top: solid #FFF 1px;
+	margin:20px 0px 0px 0px;
+}
+#firstcolwrapper {
+	float:left;	
+	min-height:auto;
+	min-height:560px;
+	width:640px;
+	background-image:url(../images/outline_img.png);
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	border-top: solid #FFF 1px;
+	margin:20px 0px 0px 0px;
+}
+.question {
+	width:310px;
+	height:90px;
+	float:left;
+	vertical-align:bottom;
+	margin:0px 0px 0px 0px;
+}
+#footer {
+	width:100%;
+	background-image:url(../images/footer_bg.gif);
+	background-repeat:repeat-x;
+	height:158px;
+	text-align:center;
+	float:left;
+}
+#footeranchor {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footertxt {
+	width: 960px;
+	float:left;
+	text-align:left;
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	color:#333;
+	font-weight:normal;
+	font-style:normal;
+	line-height:22px;
+	padding:40px 0px 0px 0px;
+}
+#footertxt a {
+	color:#333;
+}
+#congrats {
+	text-align:left;
+	float:left;
+	width:100%;
+	margin:50px 0px 25px 0px;
+	min-height:510px;
+}
+#congrats h1 {
+	color:#FFF;}

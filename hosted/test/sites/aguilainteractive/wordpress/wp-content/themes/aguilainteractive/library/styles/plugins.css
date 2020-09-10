@@ -1,0 +1,22 @@
+/* -------------------------------------------------------------- 
+   
+   Default plugin styles for Aguila Interactive
+  
+-------------------------------------------------------------- */  
+
+/* =Ajax Edit Comments
+-------------------------------------------------------------- */
+
+.edit-comment {
+    margin-bottom:18px;
+}
+
+/* =WordPress Stats
+-------------------------------------------------------------- */
+
+img#wpstats {   /* hide WordPress Stats smiley */
+    width:0px;
+    height:0px;
+    overflow:hidden
+}
+

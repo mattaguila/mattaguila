@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery> 
+  <album title="Identity Design" description="Branding"
+  		 lgPath="gallery/brandingalbum/large/" tnPath="gallery/brandingalbum/thumbs/" 
+		 tn="gallery/brandingalbum/albumthumb.jpg">
+	<img src="10.png" title="Kermitz Identity" caption="Logo Design" />
+    <img src="01.png" title="Hyde Corporate Identity" caption="Logo Design" />
+    <img src="02.png" title="Hyde Corporate Identity" caption="Stationary" />
+	<img src="03.png" title="Hyde Corporate Identity" caption="Billboard" />
+	<img src="04.png" title="Hyde Corporate Identity" caption="Magazine Advertisement" />
+	<img src="05.png" title="Huntington Museum of Modern Art Identity" caption="Logo Design" />
+	<img src="06.png" title="Huntington Museum of Modern Art Identity" caption="Wayfinding Design" />
+	<img src="07.png" title="Huntington Museum of Modern Art Identity" caption="Wayfinding Mock-up" />
+	<img src="08.png" title="Huntington Museum of Modern Art Identity" caption="Signage Mock-up" />
+	<img src="09.png" title="Jamie Lynn Riegel Identity" caption="Stationary" />
+ </album>
+</gallery>

@@ -1,0 +1,3 @@
+
+namespacing={init:function(namespace){var spaces=[];namespace.split('.').each(function(space){var curSpace=window,i;spaces.push(space);for(i=0;i<spaces.length;i++){if(typeof curSpace[spaces[i]]==='undefined'){curSpace[spaces[i]]={};}
+curSpace=curSpace[spaces[i]];}});}};(function($){$(function(){$('.front-page-tile, .double-wide-tile').click(function(e){trackingParam=istock.siteLang+'_LOFMA'+$(this).data('tile');istock.cookie.setCookie('isource',trackingParam,1);e.stopPropagation();});});}(jQuery.noConflict()));

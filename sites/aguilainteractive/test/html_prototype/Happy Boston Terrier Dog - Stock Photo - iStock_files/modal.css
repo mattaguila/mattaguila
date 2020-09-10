@@ -1,0 +1,26 @@
+#mask {
+    background-color: #000;
+    display: none;
+    position: absolute;
+    z-index: 9000;
+}
+
+#boxes .window {
+    position: fixed;
+}
+
+#dialog {
+    background-color: #FFF;
+    border: 5px solid #666;
+    display: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 532px;
+    z-index: 9999;
+}
+
+#checkout-content #boxes #dialog #cart-summary-modal-title #link-edit-cart {
+    font-family: "Lucida Grande",Verdana,Corbel,"Bitstream Vera Sans","DejaVu Sans",sans-serif;
+    font-size: 11px;
+}

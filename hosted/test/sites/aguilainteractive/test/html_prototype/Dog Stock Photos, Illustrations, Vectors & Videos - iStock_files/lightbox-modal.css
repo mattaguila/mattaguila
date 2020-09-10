@@ -1,0 +1,60 @@
+.userHasLightbox,.userNewLightbox {
+    margin-top: 20px;
+}
+
+#addToLightboxSpinner {
+    margin: 40px 0 0 165px;
+}
+
+.userHasLightbox > label,.userNewLightbox > label {
+    font-family: "Trebuchet MS","Segoe UI",Trebuchet,"Bitstream Vera Sans","DejaVu Sans",sans-serif;
+    font-size: 13px;
+}
+
+#userLightboxes {
+    font-family: "Lucida Grande",Verdana,Corbel,"Bitstream Vera Sans","DejaVu Sans",sans-serif;
+    font-size: 11px;
+    margin: 15px 0 15px 25px;
+    height: 29px;
+    width: 300px;
+}
+
+#createLightboxName {
+    font-family: "Lucida Grande",Verdana,Corbel,"Bitstream Vera Sans","DejaVu Sans",sans-serif;
+    font-size: 11px;
+    margin: 15px 0 15px 25px;
+    height: 20px;
+    width: 290px;
+}
+
+#newLightboxName {
+    font-family: "Lucida Grande",Verdana,Corbel,"Bitstream Vera Sans","DejaVu Sans",sans-serif;
+    font-size: 11px;
+    margin: 15px 0;
+    height: 20px;
+    width: 330px;
+}
+
+#lightboxSubmit {
+    margin: 20px 0 0;
+}
+
+#submitToLightboxSpinner {
+    margin: 24px 0 0;
+}
+
+.addToLightboxMessage {
+    font-family: "Lucida Grande",Verdana,Corbel,"Bitstream Vera Sans","DejaVu Sans",sans-serif;
+    font-size: 12px;
+    margin: 50px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.addToLightboxSuccessName {
+    font-weight: 700;
+}
+
+.failedAttempt {
+    color: red;
+}

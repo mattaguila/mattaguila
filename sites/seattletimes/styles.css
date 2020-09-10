@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/* CSS Document */
+
+td {
+	padding:10px;
+}
+ul {
+	list-style-type:none;
+}
+#mainbodylcstretch ol {
+font:12px/18px Arial,Helvetica,sans-serif;
+}
+ol {
+-moz-padding-start:40px;
+display:block;
+list-style-type:decimal;
+margin:1em 0;
+}
+#browse li, #degreelevels li {
+	margin:0px 0px 0px 20px;
+	color:#5f6062;
+}
+.graph  {
+background-color:#FEFDEC;
+border:1px solid #CCCCCC;
+margin:20px;
+padding:3px;
+}
+.bar div {
+background-color:#004080;
+border-bottom:2px solid #002266;
+border-top:2px solid #0077DD;
+color:white;
+float:left;
+height:1em;
+padding-top:0;
+text-align:right;
+}
+.goinfo  {
+background:none repeat scroll 0 0 #daf2f3;
+clear:right;
+font:12px Arial,Helvetica,sans-serif;
+margin:0;
+padding:7px;
+}
+table {
+-moz-box-sizing:border-box;
+border-collapse:separate;
+border-spacing:2px;
+display:table;
+margin-bottom:0;
+margin-top:0;
+text-indent:0;
+}
+.highlight {
+	background-color:#daf2f3;
+}
+.formfield{background:#fff;border:1px solid #7f9db9;width:185px;padding:1px;margin:1px 0;height:24px;font:11px Verdana, Arial, Helvetica, sans-serif;color:#000;}
+
+.borderpic  {background:none repeat scroll 0 0 #FFFFFF; border:1px solid #A6A6A6;margin:0 0 5px 10px;padding:5px;}
+
+#topsubpage h1{font:normal 18px Arial, Helvetica, sans-serif;color:#555555;margin:0;padding:0;}
+
+#topsubpage h2{font:normal 10px Arial, Helvetica, sans-serif;color:#999;margin:15px 0 15px 0;padding:0;}
+
+#mainbodylcstretch h3{font:normal 14px Arial, Helvetica, sans-serif;color:#227C88;margin:15px 0 0 0;}
+
+#mainbodylcstretch p{margin:15px 0 15px 0;padding:0;font:12px Arial, Helvetica, sans-serif;line-height:18px;}
+
+#mainbodylcstretch ul li{margin:2px 0;padding:0 0 3px 12px;background:url(images/bullet_graybox.gif) no-repeat left top;background-position:0 7px;}
+
+
+#main {
+	float:left;
+	width:100%;
+	margin:20px 0px 20px 0px;
+}
+#mainarticles {
+	float:left;
+	width:960px;
+	margin:20px 0px 20px 0px;
+}
+#topsubpage {
+	float:left;
+	text-align:left;
+	width:100%;
+}
+#leftarticles {
+	float:left;
+	width:740px;
+}
+#leftcolumn {
+	float:left;
+	width:570px;
+}
+#rightcolumn {
+	float:right;
+	width:390px;
+}
+#leftcolumn-emdlight {
+	float:left;
+	width:375px;
+}
+#rightcolumn-emdlight {
+	float:left;
+	width:585px;
+}
+#leftcolumn-emdlight2 {
+	float:left;
+	width:205px;
+}
+#leftcolumn-emdlight2-rightqdf {
+	float:right;
+	width:205px;
+}
+#rightcolumn-emdlight2 {
+	float:left;
+	width:755px;
+}
+#ListView1_listTable {
+	width:755px;	
+}
+#qdf {
+	background-image:url(images/qdf.jpg);
+	background-repeat:no-repeat;
+	width:570px;
+	height:253px;
+}
+#qdf-emdlight {
+
+	background-color:#6aa4a5;
+	width:205px;
+	height:253px;
+}
+#qdf-emdlight h4{font:bold 16px Arial, Helvetica, sans-serif;color:#FFFFFF;margin:10px;padding:10px;text-align:left;}
+#poweredby {
+    float: left;
+    width: 205px;
+    margin-top: 0px;
+    text-align: center;
+}
+#poweredbyarticles {
+    float: right;
+    width: 205px;
+    margin-top: 40px;
+    text-align: center;
+}
+#tools {
+	float:left;
+	background-image:url(images/tools.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+	width:570px;
+	padding:20px 0px 0px 0px;
+	margin:20px 0px 0px 0px;
+}
+#career {
+	float:left;
+	background-image:url(images/career.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+	width:570px;
+	margin:20px 0px 0px 0px;
+	padding:20px 0px 0px 0px;
+}
+
+#browse {
+	float:left;
+	background-image:url(images/browse.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+	width:360px;
+	margin:20px 0px 0px 10px;
+	padding:20px 0px 0px 20px;
+}
+#degreelevels {
+	float:left;
+	background-image:url(images/degreelevels.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+	width:360px;
+	margin:20px 0px 0px 10px;
+	padding:20px 0px 0px 20px;
+}
+#browse2 {
+	float:left;
+	background-image:url(images/browse2.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+	width:205px;
+	margin:20px 0px 0px 10px;
+	padding:20px 0px 0px 00px;
+}
+#degreelevels2 {
+	float:left;
+	background-image:url(images/degreelevels2.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+	width:205px;
+	margin:20px 0px 0px 10px;
+	padding:20px 0px 0px 0px;
+}
+#schools {
+	float:left;
+	width:380px;
+	background-image:url(images/schools.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+	margin:20px 0px 0px 10px;
+	padding:20px 0px 0px;
+}
+.learn_more {
+	color:#227c88;
+}
+.degree_title {
+	color:#227c88;
+}
+#resultContainer {
+	padding: 0px 5px;
+}
+#qdf-emdlight {
+	float:left;
+	text-align:left;
+	width:195px;
+	height:260px;
+	background-color:#daf2f3;
+	padding:5px;
+}
+#poweredby {
+	float:left;
+	position:absolute;
+	top:240px;
+}
+#formdiv select {
+	margin:20px 0px 10px 10px;
+}
+#formdiv input {
+	margin:20px 0px 10px 10px;
+}
+
+#searchHeader {
+	font:normal 1.5em Arial, Helvetica, sans-serif;color:#555555;margin:0px 0px 0px 10px;padding:0;
+}

@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+h1.swap {
+	height:36px;
+	background-repeat:no-repeat;
+	background-image:url(../images/logo_small.png);
+	margin:0px auto;
+}
+h2 {
+	font-size:14px;
+	margin:0px 0px 0px 25px;
+}
+h3 {
+	font-family:Crank8PlusTwo, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#E17000;
+	font-size:24px;
+	font-weight:normal;
+	font-style:normal;
+	padding:0px 0px 12px 0px;
+	margin:25px 25px 0px 25px;
+	float:left;
+}
+p {
+	font-size:14px;
+	color:#333;
+	font-weight:normal;
+	font-style:normal;
+	margin:5px 25px 5px 25px;
+	line-height:20px;
+	float:left;
+	clear:both;
+}
+#bio #resumelaunch a {
+	margin:0px 0px 0px 25px;
+}
+#wrapper {
+	width:500px;
+}
+#header {
+	float:left;
+	width:100%;
+	height:150px;
+	text-align:center;
+}
+#logo {
+	float:none;
+	width:280px;
+	margin:26px auto;
+	text-align:center;
+}
+#nav {
+	float:none;
+	width:400px;
+	margin:0px auto;
+}
+#title {
+	float:left;
+	width:100%;
+	height:50px;
+	padding:0px;
+}
+#leftcol {
+	float:left;
+	height:auto;
+	width:100%;
+	padding:0px 0px 0px 0px;
+	margin:0px 25px 0px 0px;
+}
+#contactform {
+	display:none;
+}
+#fportfolio {
+	float:left;
+	width:185px;
+	padding:25px;
+}
+#middlecol {
+	visibility:hidden;
+	display:none;
+}
+
+/*right column*/
+
+#rightcol {
+	float:left;
+	height:auto;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+}
+#work {
+	height:auto;
+	width:100%;
+	overflow:hidden;
+	margin:0px 25px 0px 0px;
+	padding:0px 0px 15px 0px;
+	text-align:center;
+	float:left;
+}
+#work li {
+	float:left;
+	display:block;
+}
+#work img {
+	margin:0px 12px 12px 0px;
+	float:left;
+}
+#work ul {
+	float:left;
+	margin:0px 0px 0px 25px;
+}
+#work ul li img {
+	border: solid 1px #e1e1e1;
+	width:62px;
+	height:62px;
+	opacity: 			1;
+	-moz-opacity: 		1;
+	float:left;
+}
+#playlist {
+	display:none;
+}
+#flickr {
+	display:none;
+}
+#footer {
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:10px 0px 0px 0px;
+}
+#footer li {
+	margin:0px;
+	display:inline-block;
+}
+#footer a {
+	font-family:AllerRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	color:#333;
+	font-weight:normal;
+	font-style:normal;
+	padding:0px;
+	line-height:18px;
+}
+#fportfolio {
+	width:100%;
+	padding:0px;
+	margin:10px 0px 10px 0px;
+}
+#fportfolio ul {
+	margin:0px 0px 0px 25px;
+}
+
+/*slider fixes*/
+
+#slidernav {
+	width:100%;
+}
+#listicons {
+	display:none;
+}
+#slider {
+	width: 100%;
+}
+#description {
+	float:left;
+	width:100%;
+	height:auto;
+	text-align:left;
+	z-index:100;
+	padding:0px;
+}
+#description #launch a {
+	margin:0px 0px 20px 25px;
+}
+.scroll {
+	height: auto;
+}
+.scrollContainer div.panel {
+  	max-width: 500px;
+	text-align:center;
+}
+.panel img {
+	width:100%;
+	height:262px;
+}
+.scrollButtons {
+  	top: 100px;
+}
+.scrollButtons.left {
+  	left: 25px;
+}
+.scrollButtons.right {
+	right: 25px;
+}

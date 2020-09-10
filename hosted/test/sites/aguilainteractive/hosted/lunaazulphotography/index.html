@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Luna Azul Photography - Galleries</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link type="text/css" media="screen" rel="stylesheet" href="css/colorbox.css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Examples of how to assign the ColorBox event to elements
+				$("a[rel='example2']").colorbox({transition:"fade"});
+				$(".example5").colorbox();
+				$(".example6").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+				$(".example7").colorbox({width:"80%", height:"80%", iframe:true});
+				$(".example8").colorbox({width:"50%", inline:true, href:"#inline_example1"});
+				$(".example9").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+</head>
+
+<body id="home">
+
+<div id="container">
+
+<div id="header">
+<div id="logo"><a href="index.html"><img src="images/logo.gif" alt="Luna Azul Photography" width="236" height="87" border="0" /></a></div>
+<div id="nav">
+  <ul>
+    <li id="nav-home"><a href="index.html">Galleries</a></li>
+    <li id="nav-blog"><a href="blog.html">Blog</a></li>
+    <li id="nav-info"><a href="info.html">Info</a></li>
+  </ul></div>
+</div>
+
+<div id="leftcol">
+<div id="gallery" class="galleryrollover"><h1><a href="#">Portraiture</a></h1>
+  <a href="#" class="galleryrollover"><img src="images/galleries/portrait_rollover.jpg" border="0" /></a></div>
+<div id="gallery">
+  <h1><a href="#">Studio</a></h1>
+  <a href="#" class="galleryrollover"><img src="images/galleries/studio_rollover.jpg" border="0" /></a></div>
+<div id="gallery">
+  <h1><a href="#">Pet Portraiture</a></h1>
+  <a href="#" class="galleryrollover"><img src="images/galleries/pet_rollover.jpg" border="0" /></a></div>
+</div>
+
+<div id="rightcol">
+ <div id="thumbs"><a href="content/ohoopee1.jpg" rel="example2" title="Example A" class="thumbrollover"><img src="images/thumbs/portraiture/test01_rollover.jpg" border="0" /></a><a href="content/ohoopee1.jpg" rel="example2" title="Example A" class="thumbrollover"><img src="images/thumbs/portraiture/test02_rollover.jpg" border="0"/></a><a href="content/ohoopee1.jpg" rel="example2" title="Example A" class="thumbrollover"><img src="images/thumbs/portraiture/test03_rollover.jpg" border="0"/></a><a href="content/ohoopee1.jpg" rel="example2" title="Example A" class="thumbrollover"><img src="images/thumbs/portraiture/test04_rollover.jpg" border="0"/></a><a href="content/ohoopee1.jpg" rel="example2" title="Example A" class="thumbrollover"><img src="images/thumbs/portraiture/test05_rollover.jpg" border="0"/></a><a href="content/ohoopee1.jpg" rel="example2" title="Example A" class="thumbrollover"><img src="images/thumbs/portraiture/test06_rollover.jpg" border="0"/></a><a href="content/ohoopee1.jpg" rel="example2" title="Example A" class="thumbrollover"><img src="images/thumbs/portraiture/test07_rollover.jpg" border="0"/></a><a href="content/ohoopee1.jpg" rel="example2" title="Example A" class="thumbrollover"><img src="images/thumbs/portraiture/test08_rollover.jpg" border="0"/></a><a href="content/ohoopee1.jpg" rel="example2" title="Example A" class="thumbrollover"><img src="images/thumbs/portraiture/test09_rollover.jpg" border="0"/></a></div>
+<div id="navtwo"><a href="#">Previous</a> <a href="#" class="next">Next</a></div>
+</div>
+
+<div id="footer"><h2>© 2010 Luna Azul Photography, All Rights Reserved</h2></div>
+
+</div>
+
+</body>
+</html>

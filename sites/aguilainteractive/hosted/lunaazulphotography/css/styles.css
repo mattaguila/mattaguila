@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'AvenirLT35LightRegular';
+	src: url('../fonts/AvenirLT35Light.eot') format('embedded-opentype');
+	src: url('../fonts/AvenirLT35Light.ttf') format('truetype');
+}
+body {
+	background-image:url(../images/bkgrnd.gif);
+	background-repeat:repeat;
+	margin:0px 0px; padding:0px;
+	text-align:center;
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333;
+}
+p {
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:16px;
+	color:#333;
+	display:inline;
+}
+li {
+	display:inline;
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	padding:20px 20px 0px 20px;
+}
+#home #nav-home a,
+#blog #nav-blog a,
+#info #nav-info a {
+	color:#999;
+}
+h1 {	
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	padding:0px 0px 6px 0px;
+	margin:0px;
+}
+h2{	
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	color:#999;
+	padding:70px 0px 0px 60px;
+}
+.next {
+	float:right;
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+a:active {
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	color: #333;
+	text-decoration: none;
+}
+a:hover {
+	color: #999;
+	text-decoration: none;
+}
+a.galleryrollover {
+	display:block;
+	height:81px;
+	width:324px;
+	overflow:hidden;
+}
+a.galleryrollover:hover {
+	display:block;
+	text-indent:-324px;
+}
+a.thumbrollover {
+	float:left;
+	display:block;
+	height:150px;
+	width:150px;
+	overflow:hidden;
+	margin:0px 25px 25px 0px;
+}
+a.thumbrollover:hover {
+	display:block;
+	text-indent:-150px;
+}
+#container {
+	margin:0px auto;
+	background-image:url(../images/container.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:left;
+	width:996px;
+	height:866px;
+}
+#header {
+	float:left;
+	width:925px;
+	height:125px;
+	padding:26px 0px 0px 36px;
+}
+#logo {
+	float:left;
+	width:170px;
+	height:87px;
+	padding:0px 0px 0px 26px;
+}
+#nav {
+	float:right;
+	padding:46px 26px 0px 0px;
+}
+#leftcol {
+	float:left;
+	width:395px;
+	margin:0px 0px 0px 36px;
+}
+#gallery {
+	width:370px;
+	height:176px;
+	padding:0px 0px 0px 25px;
+}
+#content {
+	width:346px;
+	padding:26px 24px 0px 25px;
+}
+#rightcol {
+	float:left;
+	width:525px;
+}
+#thumbs {
+	float:left;
+	width:525px;
+	height:500px;
+	padding:26px 0px 0px 0px;
+}
+#bodyimage {
+	height:544px;
+	padding:26px 0px 0px 0px;
+
+}
+#navtwo {
+	float:left;
+	width:499px;
+	margin:26px 0px 0px 0px;
+	padding:0px 26px 0px 0px;
+	font-size:14px;
+	float:left;
+	font-family: 'AvenirLT35LightRegular', Arial, Helvetica, sans-serif;
+}
+#footer {
+	float:left;
+	width:900px;
+
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body.congratspage  {
+	line-height: 1;
+	background-image:none;
+	background-color:#014e82;
+	text-align:center;
+}
+#congrats {
+	text-align:left;
+	float:left;
+	width:100%;
+	margin:50px 0px 25px 0px;
+	min-height:510px;
+}
+#congrats h1 {
+	color:#FFF;}

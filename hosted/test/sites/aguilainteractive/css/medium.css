@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+h1.swap {
+	height:49px;
+	background-repeat:no-repeat;
+	background-image:url(../images/logo_medium.png);
+}
+h2 {
+	font-size:15px;
+}
+#wrapper {
+	width:940px;
+}
+#header {
+	float:left;
+	width:100%;
+	height:100px;
+}
+#logo {
+	float:left;
+	width:383px;
+	margin:26px;
+}
+#nav {
+	margin:45px 0px 0px 185px;
+}
+#leftcol {
+	float:left;
+	height:auto;
+	width:560px;
+}
+#fportfolio {
+	float:left;
+	width:185px;
+	padding:25px;
+}
+#middlecol {
+	visibility:hidden;
+	display:none;
+}
+
+/*right column*/
+
+#rightcol {
+	float:left;
+	height:auto;
+	width:300px;
+	margin: 0px 0px 0px 25px;
+}
+#work {
+	overflow:hidden;
+	margin:0px 0px 15px 0px;
+}
+#work img {
+	margin:0px 12px 12px 0px;
+}
+#playlist {
+	height:auto;
+	padding:0px 0px 0px 0px;
+	height:auto;
+	overflow:hidden;
+	margin:0px 0px 15px 0px;
+}
+#lastfm img {
+	margin:0px 15px 15px 0px;
+}
+#flickr {
+	height:auto;
+	overflow:hidden;
+}
+#images ul li img {
+	margin:0px 15px 15px 0px;
+}
+
+/*slider fixes*/
+
+#slidernav {
+	width:925px;
+}
+#listicons {
+	width:940px;
+}
+#slider {
+  width: 940px;
+}
+#description {
+	float:left;
+	width:735px;
+	height:auto;
+	text-align:left;
+	z-index:100;
+	padding:25px 90px 0px 90px;
+}
+.scroll {
+	height: auto;
+}
+.scrollContainer div.panel {
+  	width: 940px;
+}
+.panel img {
+	width:940px;
+	height:493px;
+}
+.scrollButtons {
+  	top: 226px;
+}
+.scrollButtons.left {
+  	left: 30px;
+}
+.scrollButtons.right {
+	right: 30px;
+}
